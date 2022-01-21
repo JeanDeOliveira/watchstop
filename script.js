@@ -5,6 +5,8 @@ let OutputHours = document.querySelector('.hours')
 let OutputMins = document.querySelector('.mins')
 let OutputSecs = document.querySelector('.secs')
 
+let interval;
+
 function twoDigits(digit){
 	if(digit < 10){
 		return('0'+digit)
