@@ -5,4 +5,4 @@
 <li>Pausar
 <li>Resetar
   
-<a href="https://jeandeoliveira.github.io/watchstop/">cronometro
+<a href="https://jeandeoliveira.github.io/watchstop">cronometro
