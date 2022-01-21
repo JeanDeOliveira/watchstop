@@ -14,11 +14,11 @@ function twoDigits(digit){
 }
 
 function Start(){
-	time()
-	interval = setInterval(time, 1000)
+	Timer()
+	interval = setInterval(Timer, 1000)
 }
 
-function time(){
+function Timer(){
 	sec++
 	OutputSecs.innerHTML = twoDigits(sec)
 
