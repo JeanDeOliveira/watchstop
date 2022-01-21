@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	margin-top: 10em; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+span{
+	margin: auto;
+	display: inline-block;
+	font-size: 5.9rem;
+	color: #ffb442;
+}
+
+button{
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	padding: 10px 80px 10px 80px;
+	margin: auto;
+}
+
+#btn-start{
+	background-color: greenyellow;
+}
+
+#btn-reset{
+	background-color: red;
+}
