@@ -1,4 +1,4 @@
-let sec = 50
+let sec = 0
 let min = 0
 let hour = 0
 let OutputHours = document.querySelector('.hours')
