@@ -1,4 +1,4 @@
-let sec = 0
+let sec = 50
 let min = 0
 let hour = 0
 let OutputHours = document.querySelector('.hours')
@@ -23,7 +23,7 @@ function time(){
 	sec++
 	OutputSecs.innerHTML = twoDigits(sec)
 
-	if(sec==60){
+	if(sec==59){
 		tens=0
 		sec=0
 		++min
