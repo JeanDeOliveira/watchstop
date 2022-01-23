@@ -29,7 +29,7 @@ function time(){
 		++min
 
 		OutputMins.innerHTML = twoDigits(min)
-		if(min==60){
+		if(min==59){
 			sec=0
 			min=0
 			++hour
