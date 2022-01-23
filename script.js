@@ -16,7 +16,6 @@ function twoDigits(digit){
 }
 
 function Start(){
-	Timer()
 	interval = setInterval(Timer, 1000)
 }
 
@@ -27,13 +26,13 @@ function Timer(){
 	if(sec==60){
 		tens=0
 		sec=0
-		min++
+		++min
 
 		OutputMins.innerHTML = twoDigits(min)
 		if(min==60){
 			sec=0
 			min=0
-			hour++
+			++hour
 
 			OutputHours.innerHTML = twoDigits(hour)
 		}
