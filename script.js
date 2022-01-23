@@ -16,10 +16,10 @@ function twoDigits(digit){
 }
 
 function Start(){
-	interval = setInterval(Timer, 1000)
+	interval = setInterval(Time, 1000)
 }
 
-function Timer(){
+function time(){
 	sec++
 	OutputSecs.innerHTML = twoDigits(sec)
 
